@@ -32,7 +32,7 @@ function App() {
     }}>
       <p className='fw-bold  mb-1' style={{ fontSize: '14px', color:"#151ed3"}}>Live Support</p>
       <a
-        href={`https://wa.me/${siteData.contactNo?.replace(/\s/g, '').replace(/^0/, '92')}?text=اخوت فاؤنڈیشن کی طرف سے ہم اپ کی کیا مدد کر سکتے ہیں`}
+        href={`https://wa.me/${siteData.contactNo?.replace(/\s/g, '').replace(/^0/, '92')}`}
         target="_blank"
         rel="noopener noreferrer"
         style={{ fontSize: '28px' }}
