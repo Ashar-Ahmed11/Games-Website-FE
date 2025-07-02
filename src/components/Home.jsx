@@ -10,6 +10,7 @@ import Plans from './Plans';
 import ClientTestimonials from './ClientTestimonials';
 import FAQ from './FAQ';
 import Footer from './Footer';
+import VideoShowcase from './showcasevideo';
 
 const Home = () => {
   const { homeLoader } = useContext(AppContext); // Get from global context
@@ -27,6 +28,7 @@ const Home = () => {
   return (
     <div>
       <GameDevServ />
+      <VideoShowcase/>
       <MajorViewPoints />
       <Aboutus />
       <WhyChooseUs />
